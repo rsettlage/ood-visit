@@ -27,13 +27,16 @@ To start visit,
    ```
    -v ~/.visit/:/root/.visit/
    ```
+ 2. *Which operating systems are supported?*
+    
+    So far this setup has been tested on Linux. It might possibly be made to work on Mac OS X.  
 
 ## Reporting issues
 
-In encounter any problem please open a new issue on Github at https://github.com/symerio/visit-docker/issues
+In encounter any problem please open a new issue on Github at https://github.com/symerio/visit-docker
 
 
 ## Licence
 
-This Docker image is open-sourced under the 3-clause BSD Licence, see https://github.com/symerio/visit-docker.
+This Docker image is open-sourced under the 3-clause BSD Licence.
 
