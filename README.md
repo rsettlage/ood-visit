@@ -3,6 +3,11 @@
 A docker setup for VisIt (https://wci.llnl.gov/simulation/computer-codes/visit/)
 
 
+# visit-docker
+
+A docker setup for VisIt (https://wci.llnl.gov/simulation/computer-codes/visit/)
+
+
 To start visit,
 
  1. Allow the root user to make connections to the running X server with,
@@ -31,6 +36,10 @@ To start visit,
     
     So far this setup has been tested on Linux. It might possibly be made to work on Mac OS X.  
 
+ 3. *Can I use hardware acceleration in this setup?*
+
+    So far OpenGL support is not working properly ( see  [symerio/visit-docker#1](https://github.com/symerio/visit-docker/issues/1) )
+
 ## Reporting issues
 
 In encounter any problem please open a new issue on Github at https://github.com/symerio/visit-docker
@@ -38,5 +47,4 @@ In encounter any problem please open a new issue on Github at https://github.com
 
 ## License
 
-This Docker image is open-sourced under the 3-clause BSD License.
-
+This Docker image is open-sourced under the 3-clause BSD Licence.
