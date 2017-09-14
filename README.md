@@ -36,7 +36,7 @@ To start visit,
 In encounter any problem please open a new issue on Github at https://github.com/symerio/visit-docker
 
 
-## Licence
+## License
 
-This Docker image is open-sourced under the 3-clause BSD Licence.
+This Docker image is open-sourced under the 3-clause BSD License.
 
