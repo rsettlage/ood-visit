@@ -1,6 +1,8 @@
 FROM ubuntu:16.04
 
-MAINTAINER Robert Settlage
+LABEL org.label-schema.license="GPL-2.0" \
+      org.label-schema.vcs-url="https://github.com/rsettlag" \
+      maintainer="Robert Settlage <rsettlag@vt.edu>"
 
 RUN apt-get update && apt-get install -y mesa-utils wget
 
